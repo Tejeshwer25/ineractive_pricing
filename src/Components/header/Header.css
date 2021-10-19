@@ -1,0 +1,17 @@
+.header {
+    font-family: var(--fontFamily);
+    text-align: center;
+    padding: 5rem 0.5rem 3rem 0.5rem;
+    color: var(--grayishBlue);
+
+    background-image: url('../../Images/pattern-circles.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 10rem;
+}
+
+.header > h2 {
+    font-weight: 800;
+    font-size: 1.7rem;
+    color: var(--darkDesaturatedBlue);
+}
