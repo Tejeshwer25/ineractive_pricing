@@ -1,0 +1,118 @@
+.slider {
+  text-align: center;
+  font-family: var(--fontFamily);
+  padding: 1rem 2rem;
+}
+
+.slider__quantity {
+  font-weight: 600;
+  font-size: 1rem;
+  padding: 0.5rem 0rem 1rem;
+}
+
+.slider__details > .slider__input--cost {
+  display: none;
+}
+
+.slider__input {
+  padding: 1rem 0rem;
+}
+
+.slider__input--slider {
+  width: 13rem;
+  appearance: none;
+  background-color: var(--softCyan);
+  height: 10px;
+  border-radius: 5px;
+  outline: none;
+}
+
+.slider__input--slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  width: 35px;
+  height: 35px;
+  background-image: url('../../Images/icon-slider.svg');
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-color: var(--strongCyan);
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.slider__input--slider::-webkit-slider-thumb:hover {
+  box-shadow: 0px 0px 10px var(--strongCyan);
+}
+
+.slider__input--cost {
+  margin: 1.5rem 0rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.slider__input--cost > span {
+  color: var(--darkDesaturatedBlue);
+  font-family: var(--fontFamily);
+  font-weight: 800;
+  font-size: 2rem;
+  padding: 0rem 0.5rem;
+}
+
+.slider__toggle {
+  display: flex;
+  font-size: 0.8rem;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.slider__toggle--input {
+  margin: 0rem 0.5rem;
+  width: 40px;
+  height: 20px;
+  border-radius: 1.5rem;
+  border: none;
+  outline: none;
+}
+
+.slider__toggle--discountChip {
+  background-color: var(--lightGrayishRed);
+  color: var(--lightRed);
+  padding: 3px 6px;
+  border-radius: 15px;
+  margin-left: 5px;
+  font-size: 0.68rem;
+  font-weight: 800;
+}
+
+.slider__toggle--discountChip > span {
+  display: none;
+}
+
+@media(min-width:670px) {
+  .slider__toggle--discountChip>span {
+    display: inline;
+  }
+
+  .slider__input--slider {
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+
+  .slider__details {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .slider__details > .slider__input--cost {
+    display: block;
+  }
+
+  .slider__input--cost {
+    display: none;
+  }
+
+  .slider__toggle {
+    justify-content: center;
+  }
+}

@@ -1,0 +1,25 @@
+.pricing {
+    background-color: var(--white);
+    color: var(--grayishBlue);
+    border-radius: 2rem;
+
+    width: fit-content;
+    margin: 3rem auto;
+    padding: 2rem 0rem;
+    box-shadow: 0px 12px 20px 0px var(--lightGrayishBlue);
+}
+
+hr {
+    width: 100%;
+    color: var(--veryPaleBlue);
+    background-color: var(--lightGrayishBlue);
+    border: none;
+    height: 1.5px;
+    margin: 1rem 0rem;
+}
+
+@media(min-width: 650px) {
+    .pricing {
+        width: 60%;
+    }
+}

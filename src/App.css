@@ -1,9 +1,10 @@
 .app {
     height: 100vh;
+    padding-bottom: 2rem;
 
     background-color: var(--veryPaleBlue);
     background-image: url('./Images/bg-pattern.svg');
     background-repeat: no-repeat;
-    background-size: auto;
-    background-position-y: -50px;
+    background-size: 96rem;
+    background-position-y: -5rem;
 }
