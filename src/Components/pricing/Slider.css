@@ -88,6 +88,10 @@
   display: none;
 }
 
+.slider__toggle--switch {
+  margin-left: 1rem;
+}
+
 @media(min-width:670px) {
   .slider__toggle--discountChip>span {
     display: inline;
