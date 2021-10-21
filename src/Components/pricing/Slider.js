@@ -96,7 +96,7 @@ const Slider = () => {
 
                 <div className="slider__toggle--switch">
                     <FormControlLabel
-                        control={<IOSSwitch sx={{ m: 1 }} checked={checked}  />}
+                        control={<IOSSwitch sx={{ m: 1 }} checked={checked} />}
                         label=""
                         onChange={handleSubscriptionChange}
                     />

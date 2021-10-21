@@ -19,12 +19,13 @@
 
 .pricingBottom__trialBtn > button {
     border: none;
-    background-color: var(--darkDesaturatedBlue);
-    color: var(--paleBlue);
+    /* background-color: var(--darkDesaturatedBlue);
+    color: var(--paleBlue); */
     padding: 0.8rem 2rem;
     border-radius: 1.5rem;
     font-family: var(--fontFamily);
     font-weight: 600;
+    cursor: pointer;
 }
 
 @media (min-width: 650px) {
